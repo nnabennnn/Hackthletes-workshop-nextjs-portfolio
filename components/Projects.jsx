@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 
 
-const projectData = [
+const projectData = [``
     {
         id: 1,
         title: "LinkedOut & About",

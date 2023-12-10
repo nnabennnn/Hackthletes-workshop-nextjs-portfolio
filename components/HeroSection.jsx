@@ -20,7 +20,7 @@ const HeroSection = () => {
               <span className="text-white text-8xl ">
                 Hello, I'm{" "} 
                 <span className="text-transparent bg-clip-text sm:text-8xl md:text-9xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                Yee Chian
+                BENJAPORN HATTHI
                 </span>
               </span>
               <br></br>
@@ -32,13 +32,13 @@ const HeroSection = () => {
                 }}
                 onInit={(typewriter) => {
                     typewriter
-                    .typeString`<span style="color:#FF77FF">Web 3 Developer</span>`
+                    .typeString`<span style="color:#FF77FF">Cyber Security Student </span>`
                     .pauseFor(1500)
                     .deleteAll()
-                    .typeString`<span style="color:#9E7BFF">Crypto Trader</span>`
+                    .typeString`<span style="color:#9E7BFF">Photographer</span>`
                     .pauseFor(1500)
                     .deleteAll()
-                    .typeString`<span style="color:#893BFF">Front-End Developer</span>`
+                    .typeString`<span style="color:#893BFF">Cyber Security Learner</span>`
                     .pauseFor(1500)
                     .deleteAll()
                     .start();
@@ -50,14 +50,10 @@ const HeroSection = () => {
             <p className="text-gray-300 pt-8 text-base sm:text-lg mb-6 lg:text-xl">
               Slide down to know more about me! 
             </p>
-              <Link
-                href="#projects" 
-                className="px-12 mb-4 inline-block py-3 rounded-full mr-4 border-solid border-2 border-indigo-600 hover:bg-violet-600">
-                <span className="text-xl text-white">Projects</span>
-              </Link>
+              
              
               <Link
-                href="https://drive.google.com/file/d/1ajOJwhrua1lElHtbVjzOv12ySXn8xPBa/view?usp=sharing"
+                href="https://drive.google.com/file/d/13JWYNxUr1Ytt0ocxSNLfhA0W4XUVdR15/view?usp=sharing"
                 className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-pink-500 hover:bg-pink-400">
                 <span className="text-xl text-white">View my Resume</span>
               </Link>
@@ -70,7 +66,7 @@ const HeroSection = () => {
           >
           <div className="w-[400px] h-[400px] relative z-0">
             <img
-              src="/Hero-Section.png"
+              src="/IMG_4921.JPG"
               alt="hero section"
               className=" transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={450}
